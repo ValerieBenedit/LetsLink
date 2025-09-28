@@ -53,4 +53,4 @@ def create_tables():
 
 if __name__ == "__main__":
     create_database_and_user()
-    create_
+    create_tables()
