@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from db import get_db, User
+from backend.db import get_db, User
 from models.event import UserInterests
 
 def add_test_user():

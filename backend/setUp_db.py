@@ -47,10 +47,10 @@ def create_database_and_user():
 
 def create_tables():
     # Use SQLAlchemy to create tables (same as db.py)
-    from db import Base, engine
+    from backend.db import Base, engine
     Base.metadata.create_all(bind=engine)
     print("Tables created.")
 
 if __name__ == "__main__":
     create_database_and_user()
-    create_tables()
+    create_
