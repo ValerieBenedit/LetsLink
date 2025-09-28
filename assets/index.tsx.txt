@@ -1,0 +1,37 @@
+import React from "react";
+import chatgptImageSep272025052418Pm11 from "./chatgpt-image-sep-27-2025-05-24-18-PM-1-1.png";
+import "./style.css";
+
+export const Frame = (): JSX.Element => {
+  return (
+    <div className="frame">
+      <div className="text-wrapper">welcome to link!</div>
+
+      <p className="hangouts-dates-all">
+        <span className="span">&nbsp;</span>
+
+        <span className="text-wrapper-2">
+          hangouts &amp; dates, <br />
+          all planned to perfection
+        </span>
+      </p>
+
+      <div className="ellipse" />
+
+      <div className="div" />
+
+      <div className="ellipse-2" />
+
+      <div className="rectangle" />
+
+      <div className="text-wrapper-3">get started!</div>
+
+      <img
+        className="chatgpt-image-sep"
+        alt="Chatgpt image sep"
+        src={chatgptImageSep272025052418Pm11}
+      />
+    </div>
+  );
+};
+
